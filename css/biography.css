@@ -1,0 +1,52 @@
+body {
+  background-color: #292929;
+}
+
+.background {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .profile {
+    margin-right: 20px;
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Adiciona uma sombra à imagem */
+  }
+  
+  .biography {
+    max-width: 600px;
+  }
+  
+  .biography h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .biography p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    background-color: #e50914;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #ff0000;
+  }
+  
